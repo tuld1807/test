@@ -40,6 +40,7 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 .nav1_navContain {
   display: flex;
@@ -320,7 +321,7 @@ a {
 }
 .text_content_3 {
   position: absolute;
-  left: 45.4%;
+  left: 25%;
   font-size: 36px;
   line-height: 36px;
   letter-spacing: 0px;
@@ -357,7 +358,7 @@ a {
   justify-content: space-between;
 }
 .content_col-3 {
-  width: 270px;
+  width: 280px;
   max-height: 360px;
   /* background-color: #0071a7; */
   position: relative;
@@ -523,9 +524,15 @@ a {
   background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/para-2.jpg);
   background-size: 1920px 650px;
   background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .navContain {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .color_white {
   color: #ffffff;
