@@ -10,7 +10,7 @@
 }
 .body {
   display: block;
-  max-width: 1920px;
+  width: 1920px;
 }
 a {
   text-decoration: none;
@@ -36,7 +36,7 @@ a {
   position: relative;
 }
 .navContent {
-  max-width: 1200px;
+  width: 1200px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -76,7 +76,7 @@ a {
   margin-right: 27px;
 }
 .slider {
-  max-width: 1920px;
+  width: 1920px;
   height: 750px;
 }
 .itemNav2.button, .children5_button {
@@ -93,7 +93,7 @@ a {
   margin-right: 110px;
 }
 .slider {
-  max-width: 1920px;
+  width: 1920px;
   height: 750px;
   background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/revslider/home-3/parallax-4.jpg);
   background-size: 1920px 902px;
@@ -303,13 +303,25 @@ a {
   text-align: center;
   padding-top: 60px;
 }
-.text_content_1 {
+.text_content_1_1 {
   color: #9a9a9a;
-  text-align: center;
   font-size: 14px;
   line-height: 14px;
   letter-spacing: 2px;
   font-weight: normal;
+  position: absolute;
+  left: 45.5%;
+  margin-bottom: 20px;
+}
+.text_content_1 {
+  color: #9a9a9a;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  /* position: absolute;
+  left: 45.5%;
+  margin-bottom: 20px; */
 }
 .text_content_2 {
   font-size: 36px;
@@ -352,7 +364,7 @@ a {
 }
 .content_col_12 {
   display: flex;
-  max-width: 1200px;
+  width: 1200px;
   min-height: 300px;
   margin-top: 50px;
   justify-content: space-between;
@@ -525,6 +537,8 @@ a {
   background-size: 1920px 650px;
   background-repeat: no-repeat;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
 }
@@ -689,7 +703,7 @@ a {
 .content_children4_container {
   margin-top: 75px;
   margin-bottom: 70px;
-  max-width: 1920px;
+  width: 1920px;
   min-height: 260px;
   background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/para-5.jpg);
   background-size: 1920px 700px;
@@ -719,7 +733,7 @@ a {
   margin-bottom: 8px;
 }
 .content_children5_container {
-  max-width: 1920px;
+  width: 1920px;
   min-height: 700px;
   display: flex;
   justify-content: center;
@@ -733,7 +747,7 @@ a {
   left: 25%;
 }
 .children5_content {
-  max-width: 1200px;
+  width: 1200px;
   min-height: 490px;
   display: flex;
   margin-top: 60px;
@@ -800,7 +814,7 @@ a {
   border: 1px solid #fff;
 }
 .footer {
-  max-width: 1920px;
+  width: 1920px;
   min-height: 630px;
   background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/para-11.jpg?id=1897);
   background-size: 1920px 900px;
@@ -810,10 +824,10 @@ a {
   padding-bottom: 40px;
 }
 .footer_container {
-  max-width: 1230px;
+  width: 1230px;
 }
 .footer_block1 {
-  max-width: 1200px;
+  width: 1200px;
   min-height: 210px;
   display: flex;
   align-items: center;
@@ -862,7 +876,7 @@ a {
   border: 1px solid #f1f1f1;
 }
 .footer_block2 {
-  max-width: 1170px;
+  width: 1170px;
   min-height: 290px;
   background-color: #fff;
   margin-left: 15px;
@@ -870,7 +884,7 @@ a {
   display: flex;
 }
 .footer_block2_container1 {
-  max-width: 510px;
+  width: 510px;
   height: 290px;
   display: flex;
   flex-wrap: wrap;
@@ -918,7 +932,7 @@ a {
   margin-top: 2px;
 }
 .footer_block3 {
-  max-width: 1170px;
+  width: 1170px;
   min-height: 52px;
   display: flex;
   flex-wrap: wrap;
